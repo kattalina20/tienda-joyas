@@ -1,0 +1,33 @@
+/* 📌 Estructura general de la tarjeta */
+.card {
+  position: relative;
+  overflow: hidden;
+}
+
+/* 🔖 Cinta base */
+.badge {
+  position: absolute;
+  top: 15px;
+  left: -40px;
+  width: 130px;
+  text-align: center;
+  color: #fff;
+  font-weight: 600;
+  transform: rotate(-45deg);
+  z-index: 10;
+  padding: 5px 0;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
+  font-size: 0.85rem;
+}
+
+/* 🟥 Oferta */
+.badge.oferta {
+  background: linear-gradient(135deg, #ff4b2b, #ff416c);
+}
+
+/* 🟩 Nuevo */
+.badge.nuevo {
+  background: linear-gradient(135deg, #00b09b, #96c93d);
+}
+
+
